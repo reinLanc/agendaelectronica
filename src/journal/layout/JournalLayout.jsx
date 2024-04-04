@@ -1,4 +1,5 @@
-import { Box, Toolbar } from '@mui/material'
+import { Toolbar } from '@mui/material';
+import { Box } from '@mui/system'
 import { NavBar,SideBar } from '../components';
 
 
