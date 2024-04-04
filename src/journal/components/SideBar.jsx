@@ -1,5 +1,5 @@
 import { Box, Divider, Drawer, Grid, List, ListItem, ListItemButton, ListItemIcon, ListItemText, Toolbar, Typography } from '@mui/material'
-import { TurnedInNot } from '@mui/icons-material';
+import { Person, PersonPinCircleOutlined, PersonPinCircleTwoTone, TurnedInNot } from '@mui/icons-material';
 import { useSelector } from 'react-redux';
 import { SideBarItems } from './SideBarItems';
 
@@ -22,6 +22,7 @@ export const SideBar = ({ drawerWidth = 240 }) => {
                 }}
             >
                 <Toolbar>
+                    <Person/>
                     <Typography variant='h6' noWrap component='div'>
                         { displayName }
                     </Typography>

@@ -28,7 +28,7 @@ export const SideBarItems = ({ title = '', body, id, date, imageUrls = [] }) => 
             </ListItemIcon>
             <Grid container>
                 <ListItemText primary={ newTitle } />
-                <ListItemText secondary={ body } />
+                <ListItemText secondary={ body.substring(0,25) + '...' } />
             </Grid>
         </ListItemButton>
     </ListItem>
